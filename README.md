@@ -1,4 +1,4 @@
-# pixel
+# PIXEL
 
 <hr>
 - This is a drawing based project <br>
