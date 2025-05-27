@@ -1,7 +1,7 @@
 # pixel
 
 <hr>
-- This is a drawing based project
+- This is a drawing based project <br>
 - used async JS, HTML5, CSS3
 - you cah draw color you choose, erase
 <hr>
