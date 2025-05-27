@@ -1,0 +1,76 @@
+:root {
+    --current-color: white;
+    --default-color: rgb(62, 62, 62);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu {
+    height: 30vh;
+    width: 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.red {
+    background-color: rgb(255, 0, 0);
+}
+
+.green {
+    background-color: rgb(0, 255, 13);
+}
+
+.violet {
+    background-color: rgb(174, 0, 255);
+}
+
+.yellow {
+    background-color: rgb(255, 255, 0);
+}
+
+.blue {
+    background-color: rgb(0, 195, 255);
+}
+
+
+.color-cell, .tool-cell {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+}
+
+.tool-cell img {
+    width: 80%;
+}
+
+.pole {
+    width: 60vw;
+    height: 30vh;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(30,1fr);
+    grid-template-rows: repeat(15,1fr);
+    gap: 5px;
+}
+
+.cell {
+    background: var(--default-color);
+    opacity: 0.5;
+}
+.cell:hover {
+    background-color: var(--current-color);
+}
+.pole-conteiner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+} 
